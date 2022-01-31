@@ -1,3 +1,3 @@
 # Tinder de Cavalo
 
-<img src="https://user-images.githubusercontent.com/54097213/151810364-4594316d-df0d-4570-90f1-e4c6864c5f61.png"/>
+<img src="https://user-images.githubusercontent.com/54097213/151814634-662555cd-28d5-420b-8df9-4e350aa3e90a.gif"/>
