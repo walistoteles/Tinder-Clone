@@ -12,7 +12,7 @@
                     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                         <Frame CornerRadius="10" Padding="8" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
                             <AbsoluteLayout>
-                                <Image Source="{Binding Photo}" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5,0.5,1,1" AbsoluteLayout.LayoutFlags="All">
+                                <Image Source="{Binding Photo}" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5,0.5,1,1" AbsoluteLayout.LayoutFlags="All" HeightRequest="500">
                                     
                                 </Image>
                                 <Label FontSize="Large" FontAttributes="Bold" TextColor="White" AbsoluteLayout.LayoutBounds="0.1,0.95,150,30" AbsoluteLayout.LayoutFlags="PositionProportional">
@@ -20,7 +20,7 @@
                                     <Label.FormattedText>
                                         <FormattedString>
                                             <Span Text="{Binding Name}"></Span>
-                                            <Span Text=","></Span>
+                                            <Span Text=", "></Span>
                                             <Span Text="{Binding Age}"></Span>
                                         </FormattedString>
                                     </Label.FormattedText>

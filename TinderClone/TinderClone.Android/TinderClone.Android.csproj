@@ -83,7 +83,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\TinderClone\TinderClone.csproj">
       <Project>{306F1ECD-6229-4CA8-B69A-810A4C253FD3}</Project>
@@ -94,10 +93,10 @@
     <AndroidResource Include="Resources\drawable\ic_star.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ic_nope.png" />
+    <AndroidResource Include="Resources\drawable\ic_like.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ic_like.png" />
+    <AndroidResource Include="Resources\drawable\ic_nope.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

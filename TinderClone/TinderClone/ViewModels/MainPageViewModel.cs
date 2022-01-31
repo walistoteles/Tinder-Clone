@@ -33,10 +33,10 @@ namespace TinderClone.ViewModels
         {
             Profiles = new ObservableCollection<ProfileModel>
             {
-                new ProfileModel{ Age = 18, Name = "Natthalia", Photo = "https://www.usni.org/sites/default/files/styles/hero_image_2400/public/Klima%20%26%20Klima-NH-MA-19%201.jpg?itok=Ndl2R6Hx"},
-                new ProfileModel{ Age = 22, Name = "Bruna", Photo = "https://media.istockphoto.com/photos/portrait-beautiful-young-woman-with-clean-fresh-skin-picture-id1329622588?b=1&k=20&m=1329622588&s=170667a&w=0&h=MrsM7nyIOW4Gt5PM5Vs6xYIMJ1nr1FLT9bvt0Sve-S4="},
-                new ProfileModel{ Age = 19, Name = "Pietra", Photo = "https://emirateswoman.com/wp-content/uploads/2019/10/Bella-Hadid-1.jpg"},
-                new ProfileModel{ Age = 21, Name = "Evee", Photo = "https://nypost.com/wp-content/uploads/sites/2/2020/12/yael-most-beautiful-video.jpg?quality=90&strip=all"},
+                new ProfileModel{ Age = 18, Name = "Goró", Photo = "https://i.pinimg.com/originals/92/6b/10/926b109f89b073fcf1dac5470ad4ed1b.jpg"},
+                new ProfileModel{ Age = 22, Name = "Roberto", Photo = "https://i.pinimg.com/originals/56/2f/b9/562fb9244f4a0a077dacfe046b5e5462.jpg"},
+                new ProfileModel{ Age = 19, Name = "Spirit", Photo = "https://thumbs.dreamstime.com/b/corridas-do-cavalo-selvagem-35521630.jpg"},
+                new ProfileModel{ Age = 21, Name = "Carpiado", Photo = "https://i.pinimg.com/736x/29/f1/70/29f17010d8c48fcb48dc76084487d4fb.jpg"},
             };
         }
 
