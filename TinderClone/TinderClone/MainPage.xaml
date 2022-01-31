@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TinderClone.MainPage"
+             xmlns:swipeCardView="clr-namespace:MLToolkit.Forms.SwipeCardView;assembly=MLToolkit.Forms.SwipeCardView">
+
+    <StackLayout>
+        <swipeCardView:SwipeCardView
+            x:Name="SwipeView1" ItemsSource="{Binding Profiles}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10" SupportedDraggingDirections="Left,Right,Up">
+            <swipeCardView:SwipeCardView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <Frame CornerRadius="10" Padding="8" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                            <AbsoluteLayout>
+                                <Image Source="{Binding Photo}" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5,0.5,1,1" AbsoluteLayout.LayoutFlags="All">
+                                    
+                                </Image>
+                                <Label FontSize="Large" FontAttributes="Bold" TextColor="White" AbsoluteLayout.LayoutBounds="0.1,0.95,150,30" AbsoluteLayout.LayoutFlags="PositionProportional">
+
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding Name}"></Span>
+                                            <Span Text=","></Span>
+                                            <Span Text="{Binding Age}"></Span>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                            </AbsoluteLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </swipeCardView:SwipeCardView.ItemTemplate>
+            
+        </swipeCardView:SwipeCardView>
+
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10,10,10,20" Spacing="30">
+            <StackLayout>
+                <Button WidthRequest="60" HeightRequest="60" CornerRadius="30" BackgroundColor="White" Scale="1" ImageSource="ic_nope"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center">
+                <Button WidthRequest="50" HeightRequest="50" CornerRadius="25" BackgroundColor="White" Scale="1" ImageSource="ic_star"/>
+            </StackLayout>
+            <StackLayout>
+                <Button WidthRequest="60" HeightRequest="60" CornerRadius="30" BackgroundColor="White" Scale="1" ImageSource="ic_like"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
